@@ -1,0 +1,9 @@
+glob:*.user
+glob:*.suo
+glob:DataVault.Core/bin/
+glob:DataVault.Core/obj/
+glob:DataVault.Playground/bin/
+glob:DataVault.Playground/obj/
+glob:DataVault.UI/bin/
+glob:DataVault.UI/obj/
+glob:*AssemblyInfo.cs

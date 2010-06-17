@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="value" nillable="true" type="XmlValueDto" />
+  <xs:complexType name="XmlValueDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="metadata" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="content" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" />
+  </xs:complexType>
+  <xs:element name="branch" nillable="true" type="XmlBranchDto" />
+  <xs:complexType name="XmlBranchDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="metadata" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="values" type="ArrayOfXmlValueDto" />
+      <xs:element minOccurs="0" maxOccurs="1" name="branches" type="ArrayOfXmlBranchDto" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="ArrayOfXmlValueDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="value" nillable="true" type="XmlValueDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfXmlBranchDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="branch" nillable="true" type="XmlBranchDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="vault" nillable="true" type="XmlVaultDto" />
+  <xs:complexType name="XmlVaultDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="root" type="XmlBranchDto" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

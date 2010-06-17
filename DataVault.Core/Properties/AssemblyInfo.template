@@ -1,0 +1,14 @@
+﻿using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+[assembly: AssemblyTitle("DataVault.Core")]
+[assembly: AssemblyProduct("DataVault")]
+[assembly: AssemblyCopyright("Copyright © 2009-2010 ObjectMeet")]
+
+[assembly: ComVisible(false)]
+[assembly: InternalsVisibleTo("DataVault.Playground")]
+
+[assembly: Guid("0580bfb6-f4ec-45a9-953d-b358f0eeb917")]
+[assembly: AssemblyVersion("3.0.$WCREV$.0")]
+[assembly: AssemblyFileVersion("3.0.$WCREV$.0")]

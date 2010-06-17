@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_nameColumn.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="_typeColumn.Text" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="_valueColumn.Text" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_vaultNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="_vaultNew.Text" xml:space="preserve">
+    <value>&amp;Создать...</value>
+  </data>
+  <data name="_vaultOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="_vaultOpen.Text" xml:space="preserve">
+    <value>&amp;Открыть...</value>
+  </data>
+  <data name="_vaultSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="_vaultSave.Text" xml:space="preserve">
+    <value>&amp;Сохранить</value>
+  </data>
+  <data name="separator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 6</value>
+  </data>
+  <data name="_vaultImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="_vaultImport.Text" xml:space="preserve">
+    <value>&amp;Импортировать...</value>
+  </data>
+  <data name="_vaultExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="_vaultExport.Text" xml:space="preserve">
+    <value>&amp;Экспортировать...</value>
+  </data>
+  <data name="separator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 6</value>
+  </data>
+  <data name="_vaultExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="_vaultExit.Text" xml:space="preserve">
+    <value>&amp;Выход</value>
+  </data>
+  <data name="_vault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 18</value>
+  </data>
+  <data name="_vault.Text" xml:space="preserve">
+    <value>&amp;Репозиторий</value>
+  </data>
+  <data name="_editCut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="_editCut.Text" xml:space="preserve">
+    <value>Вы&amp;резать</value>
+  </data>
+  <data name="_editCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="_editCopy.Text" xml:space="preserve">
+    <value>&amp;Копировать</value>
+  </data>
+  <data name="_editPaste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="_editPaste.Text" xml:space="preserve">
+    <value>&amp;Вставить</value>
+  </data>
+  <data name="_separator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="_editUndo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="_editUndo.Text" xml:space="preserve">
+    <value>&amp;Отменить</value>
+  </data>
+  <data name="_editRedo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="_editRedo.Text" xml:space="preserve">
+    <value>&amp;Выполнить заново</value>
+  </data>
+  <data name="_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 18</value>
+  </data>
+  <data name="_edit.Text" xml:space="preserve">
+    <value>&amp;Редактировать</value>
+  </data>
+  <data name="_viewsActive.Text" xml:space="preserve">
+    <value>* Активные:</value>
+  </data>
+  <data name="_viewsAvailable.Text" xml:space="preserve">
+    <value>* Доступные:</value>
+  </data>
+  <data name="_views.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 18</value>
+  </data>
+  <data name="_views.Text" xml:space="preserve">
+    <value>&amp;Проекции</value>
+  </data>
+  <data name="_branchNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_branchNew.Text" xml:space="preserve">
+    <value>&amp;Создать</value>
+  </data>
+  <data name="_separator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 6</value>
+  </data>
+  <data name="_branchMoveUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_branchMoveUp.Text" xml:space="preserve">
+    <value>Переместить &amp;вверх</value>
+  </data>
+  <data name="_branchMoveDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_branchMoveDown.Text" xml:space="preserve">
+    <value>Переместить в&amp;низ</value>
+  </data>
+  <data name="_separator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 6</value>
+  </data>
+  <data name="_branchEditMetadata.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_branchEditMetadata.Text" xml:space="preserve">
+    <value>Редактировать &amp;метаданные...</value>
+  </data>
+  <data name="_branchRename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_branchRename.Text" xml:space="preserve">
+    <value>&amp;Переименовать</value>
+  </data>
+  <data name="_branchDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_branchDelete.Text" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="_branch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 18</value>
+  </data>
+  <data name="_branch.Text" xml:space="preserve">
+    <value>&amp;Ветвь</value>
+  </data>
+  <data name="_valueEdit.Text" xml:space="preserve">
+    <value>&amp;Редактировать...</value>
+  </data>
+  <data name="_valueEditMetadata.Text" xml:space="preserve">
+    <value>Редактировать &amp;метаданные...</value>
+  </data>
+  <data name="_valueRename.Text" xml:space="preserve">
+    <value>&amp;Переименовать</value>
+  </data>
+  <data name="_valueDelete.Text" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="_value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 18</value>
+  </data>
+  <data name="_value.Text" xml:space="preserve">
+    <value>&amp;Ключ</value>
+  </data>
+  <data name="_branchNewPopup.Text" xml:space="preserve">
+    <value>&amp;Создать ветвь</value>
+  </data>
+  <data name="_branchCutPopup.Text" xml:space="preserve">
+    <value>Вы&amp;резать</value>
+  </data>
+  <data name="_branchCopyPopup.Text" xml:space="preserve">
+    <value>&amp;Копировать</value>
+  </data>
+  <data name="_branchPastePopup.Text" xml:space="preserve">
+    <value>&amp;Вставить</value>
+  </data>
+  <data name="_branchMoveUpPopup.Text" xml:space="preserve">
+    <value>Переместить &amp;вверх</value>
+  </data>
+  <data name="_branchMoveDownPopup.Text" xml:space="preserve">
+    <value>Переместить в&amp;низ</value>
+  </data>
+  <data name="_branchEditMetadataPopup.Text" xml:space="preserve">
+    <value>Редактировать &amp;метаданные...</value>
+  </data>
+  <data name="_branchRenamePopup.Text" xml:space="preserve">
+    <value>&amp;Переименовать</value>
+  </data>
+  <data name="_branchDeletePopup.Text" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="_valueCutPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_valueCutPopup.Text" xml:space="preserve">
+    <value>Вы&amp;резать</value>
+  </data>
+  <data name="_valueCopyPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_valueCopyPopup.Text" xml:space="preserve">
+    <value>&amp;Копировать</value>
+  </data>
+  <data name="_valuePastePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_valuePastePopup.Text" xml:space="preserve">
+    <value>&amp;Вставить</value>
+  </data>
+  <data name="_separator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 6</value>
+  </data>
+  <data name="_valueEditPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_valueEditPopup.Text" xml:space="preserve">
+    <value>&amp;Редактировать...</value>
+  </data>
+  <data name="_valueEditMetadataPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_valueEditMetadataPopup.Text" xml:space="preserve">
+    <value>Редактировать &amp;метаданные...</value>
+  </data>
+  <data name="_valueRenamePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_valueRenamePopup.Text" xml:space="preserve">
+    <value>&amp;Переименовать</value>
+  </data>
+  <data name="_valueDeletePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="_valueDeletePopup.Text" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="_valuePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 164</value>
+  </data>
+  <data name="_valueCutPopup2.Text" xml:space="preserve">
+    <value>Вы&amp;резать</value>
+  </data>
+  <data name="_valueCopyPopup2.Text" xml:space="preserve">
+    <value>&amp;Копировать</value>
+  </data>
+  <data name="_valuePastePopup2.Text" xml:space="preserve">
+    <value>&amp;Вставить</value>
+  </data>
+</root>

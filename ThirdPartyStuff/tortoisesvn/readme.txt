@@ -1,0 +1,2 @@
+This tool is a surrogate - it redirects requests to TortoiseSVN's SubWCRev.
+I've written it in order to not include TSVN's binaries into the codebase, since I'm not really sure whether their license (GPL) marries mine (Apache 2.0).

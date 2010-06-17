@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{91B91EB5-10FD-4EDC-B967-3897539F840D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataVault.UI</RootNamespace>
+    <AssemblyName>DataVault.UI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>183</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\Commands\WithExecutor\CommandExecutor.cs" />
+    <Compile Include="Api\Commands\WithHistory\ICommandExecutorWithHistory.cs" />
+    <Compile Include="Api\ContentTypez\UnknownContentType.cs" />
+    <Compile Include="Api\ContentTypez\UnknownContentTypeAppliedToValue.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\CustomMessageBox.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\CustomMessageBoxButtons.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\CustomMessageBoxDefaultButton.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\CustomMessageBoxDialogResult.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\CustomMessageBoxIcon.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\Impl\MessageBoxEx.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\Impl\MessageBoxExButton.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\Impl\MessageBoxExButtons.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\Impl\MessageBoxExForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\CustomMessageBoxes\Impl\MessageBoxExIcon.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\Impl\MessageBoxExManager.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\Impl\MessageBoxExResult.cs" />
+    <Compile Include="Utils\CustomMessageBoxes\Impl\TimeoutResult.cs" />
+    <Compile Include="Api\UIExtensionz\DataVaultUIExtension.cs" />
+    <Compile Include="Api\UIExtensionz\DataVaultUIExtensionAttribute.cs" />
+    <Compile Include="Api\UIExtensionz\DataVaultUIExtensions.cs" />
+    <Compile Include="Api\UIExtensionz\IDataVaultUIExtension.cs" />
+    <Compile Include="Api\UIContext\MenuRelatedContextExtensions.cs" />
+    <Compile Include="Api\ApiExtensions\ApiExtensions.cs" />
+    <Compile Include="Api\VaultFormatz\VaultAction.cs" />
+    <Compile Include="Api\VaultFormatz\Dialogs\IVaultDialog.cs" />
+    <Compile Include="Api\VaultFormatz\Dialogs\IVaultDialogTab.cs" />
+    <Compile Include="Api\VaultFormatz\Dialogs\VaultDialogTabEventArgs.cs" />
+    <Compile Include="Api\VaultFormatz\IVaultFormatUI.cs" />
+    <Compile Include="Api\VaultViewz\IVaultViewFactory.cs" />
+    <Compile Include="Api\VaultViewz\ViewReadFromStorageCommand.cs" />
+    <Compile Include="Api\VaultViewz\VaultViewFactory.cs" />
+    <Compile Include="Api\VaultViewz\ViewWriteToStorageCommand.cs" />
+    <Compile Include="Api\Versioning\StructureVersion.cs" />
+    <Compile Include="Api\VaultViewz\VaultViewFactories.cs" />
+    <Compile Include="Api\VaultViewz\VaultView.cs" />
+    <Compile Include="Api\VaultViewz\VaultViewAttribute.cs" />
+    <Compile Include="Api\VaultViewz\VaultViewLocAttribute.cs" />
+    <Compile Include="Api\VaultViewz\IVaultView.cs" />
+    <Compile Include="Commands\CtxInitializeViews.cs" />
+    <Compile Include="Commands\ViewToggleCommand.cs" />
+    <Compile Include="Impl\Api\BranchMetadata.cs" />
+    <Compile Include="Impl\Api\ValueMetadata.cs" />
+    <Compile Include="Commands\BranchEditMetadataFinishCommand.cs" />
+    <Compile Include="Commands\BranchEditMetadataStartCommand.cs" />
+    <Compile Include="Commands\ValueEditBinaryFinishCommand.cs" />
+    <Compile Include="Commands\ValueEditFinishCommand.cs" />
+    <Compile Include="Commands\ValueEditMetadataFinishCommand.cs" />
+    <Compile Include="Commands\ValueEditMetadataStartCommand.cs" />
+    <Compile Include="Commands\ValueNewBinaryCommand.cs" />
+    <Compile Include="Commands\ValueNewCommand.cs" />
+    <Compile Include="Commands\VaultImportCommand.cs" />
+    <Compile Include="Api\ContentTypez\ContentType.cs" />
+    <Compile Include="Api\ContentTypez\IContentType.cs" />
+    <Compile Include="Api\ComponentModel\BranchEditor.cs" />
+    <Compile Include="Api\ComponentModel\ElementEditor.cs" />
+    <Compile Include="Api\UIContext\ContextBoundCommand.cs" />
+    <Compile Include="Api\UIContext\ValueRelatedContextBoundCommand.cs" />
+    <Compile Include="Commands\BranchCopyCommand.cs" />
+    <Compile Include="Commands\BranchCutCommand.cs" />
+    <Compile Include="Commands\BranchDeleteCommand.cs" />
+    <Compile Include="Commands\BranchDragDropCommand.cs" />
+    <Compile Include="Commands\BranchMoveDownCommand.cs" />
+    <Compile Include="Commands\BranchMoveUpCommand.cs" />
+    <Compile Include="Commands\BranchNewCommand.cs" />
+    <Compile Include="Commands\BranchPasteCommand.cs" />
+    <Compile Include="Commands\BranchRenameFinishCommand.cs" />
+    <Compile Include="Commands\BranchRenameStartCommand.cs" />
+    <Compile Include="Commands\CopyCommand.cs" />
+    <Compile Include="Api\Commands\WithExecutor\CommandExecutionCancelledException.cs" />
+    <Compile Include="Api\Commands\CompositeCommand.cs" />
+    <Compile Include="Api\Commands\EmptyCommand.cs" />
+    <Compile Include="Api\Commands\WithExecutor\ExecutorBoundWrapper.cs" />
+    <Compile Include="Api\Commands\FilterCommand.cs" />
+    <Compile Include="Api\Commands\WithExecutor\ICommandExecutor.cs" />
+    <Compile Include="Commands\CutCommand.cs" />
+    <Compile Include="Api\Commands\WithExecutor\CommandExecutedEventArgs.cs" />
+    <Compile Include="Api\Commands\WithExecutor\CommandExecutingEventArgs.cs" />
+    <Compile Include="Api\Commands\WithHistory\CommandExecutorWithHistory.cs" />
+    <Compile Include="Commands\PasteCommand.cs" />
+    <Compile Include="Api\Commands\WithUI\CommandMapping.cs" />
+    <Compile Include="Commands\ValueCopyCommand.cs" />
+    <Compile Include="Commands\ValueCutCommand.cs" />
+    <Compile Include="Commands\ValueDeleteCommand.cs" />
+    <Compile Include="Commands\ValueEditTypedFinishCommand.cs" />
+    <Compile Include="Commands\ValueEditStartCommand.cs" />
+    <Compile Include="Commands\ValueNewTypedCommand.cs" />
+    <Compile Include="Commands\ValuePasteCommand.cs" />
+    <Compile Include="Commands\ValueRenameFinishCommand.cs" />
+    <Compile Include="Commands\ValueRenameStartCommand.cs" />
+    <Compile Include="Api\UIContext\DataVaultUIContext.cs" />
+    <Compile Include="Api\Commands\WithHistory\GhostableInHistoryAttribute.cs" />
+    <Compile Include="Api\Commands\ICommand.cs" />
+    <Compile Include="Api\Commands\WithHistory\ResetsHistoryAttribute.cs" />
+    <Compile Include="Api\Commands\WithHistory\RedoCommand.cs" />
+    <Compile Include="Api\Commands\WithHistory\UndoCommand.cs" />
+    <Compile Include="Commands\VaultExitCommand.cs" />
+    <Compile Include="Commands\VaultNewCommand.cs" />
+    <Compile Include="Commands\VaultOpenCommand.cs" />
+    <Compile Include="Commands\VaultExportCommand.cs" />
+    <Compile Include="Commands\VaultSaveCommand.cs" />
+    <Compile Include="Impl\Controls\DefaultEditMetadataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impl\Controls\DefaultEditMetadataForm.Designer.cs">
+      <DependentUpon>DefaultEditMetadataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impl\Controls\DefaultEditValueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impl\Controls\DefaultEditValueForm.Designer.cs">
+      <DependentUpon>DefaultEditValueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Api\DataVaultBrowserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Api\DataVaultBrowserForm.Designer.cs">
+      <DependentUpon>DataVaultBrowserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Api\ComponentModel\ElementTypeConverter.cs" />
+    <Compile Include="Impl\Controls\RichTextBoxWithHiddenCaret.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Api\ComponentModel\ValueEditor.cs" />
+    <Compile Include="Api\Extensibility\Codebase.cs" />
+    <Compile Include="Api\ApiExtensions\MenuHelper.cs" />
+    <Compile Include="Api\ApiExtensions\TreeViewHelper.cs" />
+    <Compile Include="Api\DataVaultEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Api\DataVaultEditor.Designer.cs">
+      <DependentUpon>DataVaultEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Api\DataVaultEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Api\DataVaultEditorForm.Designer.cs">
+      <DependentUpon>DataVaultEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Api\VaultFormatz\Dialogs\VaultDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Api\VaultFormatz\Dialogs\VaultDialogForm.designer.cs">
+      <DependentUpon>VaultDialogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impl\Controls\FileSystem\ShellBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Impl\Controls\FileSystem\ShellBrowser.Designer.cs">
+      <DependentUpon>ShellBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impl\Controls\FileSystem\Controls\BrowserComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Impl\Controls\FileSystem\Controls\BrowserListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Impl\Controls\FileSystem\Controls\BrowserTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Impl\Controls\FileSystem\Controls\BrowserContextMenuWrappers.cs" />
+    <Compile Include="Impl\Controls\FileSystem\Controls\BrowserDragWrappers.cs" />
+    <Compile Include="Impl\Controls\FileSystem\Controls\BrowserDropWrappers.cs" />
+    <Compile Include="Impl\Controls\FileSystem\Controls\BrowserPluginWrapper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IAdviseSink.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IContextMenu.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IDataObject.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IDragSourceHelper.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IDropSource.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IDropTarget.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IDropTargetHelper.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IEnumFORMATETC.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IEnumIDList.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IEnumSTATSTG.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IQueryInfo.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IShellExtInit.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IShellFolder.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IStorage.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\Interfaces\IStream.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\PIDL.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\NativeShellAPI.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\ShellBrowserComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\ShellBrowserUpdater.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\ShellHelper.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\ShellImageList.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\ShellItem.cs" />
+    <Compile Include="Impl\Controls\FileSystem\ShellAPI\StreamStorage.cs" />
+    <Compile Include="Impl\Helpers\WinFormsHelpers.cs" />
+    <Compile Include="Impl\VaultFormatz\PathHelper.cs" />
+    <Compile Include="Program.cs">
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Utils\CustomMessageBoxes\Impl\MessageBoxExForm.resx">
+      <DependentUpon>MessageBoxExForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Api\DataVaultBrowserForm.resx">
+      <DependentUpon>DataVaultBrowserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Api\DataVaultBrowserForm.ru-RU.resx">
+      <DependentUpon>DataVaultBrowserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impl\Controls\DefaultEditMetadataForm.resx">
+      <DependentUpon>DefaultEditMetadataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impl\Controls\DefaultEditMetadataForm.ru-RU.resx">
+      <DependentUpon>DefaultEditMetadataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impl\Controls\DefaultEditValueForm.resx">
+      <DependentUpon>DefaultEditValueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impl\Controls\DefaultEditValueForm.ru-RU.resx">
+      <DependentUpon>DefaultEditValueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Api\DataVaultEditor.resx">
+      <DependentUpon>DataVaultEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Api\DataVaultEditor.ru-RU.resx">
+      <DependentUpon>DataVaultEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Api\DataVaultEditorForm.resx">
+      <DependentUpon>DataVaultEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Api\VaultFormatz\Dialogs\VaultDialogForm.resx">
+      <DependentUpon>VaultDialogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impl\Controls\FileSystem\ShellBrowser.resx">
+      <DependentUpon>ShellBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ru-RU.resx">
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\AssemblyInfo.template" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Api\Exceptions\ValidationException.cs" />
+    <Compile Include="Api\ContentTypez\IContentTypeAppliedToValue.cs" />
+    <Compile Include="Api\ContentTypez\ContentTypeLocAttribute.cs" />
+    <Compile Include="Api\ContentTypez\ContentTypeAttribute.cs" />
+    <Compile Include="Api\ContentTypez\CultureAwareContentTypeAppliedToValue.cs" />
+    <Compile Include="Api\ContentTypez\ContentTypeAppliedToValue.cs" />
+    <Compile Include="Impl\ContentTypez\TextContentType.cs" />
+    <Compile Include="Api\ContentTypez\ContentTypes.cs" />
+    <Compile Include="Api\VaultFormatz\VaultFormat.cs" />
+    <Compile Include="Api\VaultFormatz\VaultFormatLocAttribute.cs" />
+    <Compile Include="Api\VaultFormatz\IVaultFormat.cs" />
+    <Compile Include="Api\VaultFormatz\VaultFormatAttribute.cs" />
+    <Compile Include="Api\VaultFormatz\VaultFormats.cs" />
+    <Compile Include="Impl\VaultFormatz\FileBasedVaultFormat.cs" />
+    <Compile Include="Impl\VaultFormatz\FsVaultFormat.cs" />
+    <Compile Include="Impl\VaultFormatz\XmlVaultFormat.cs" />
+    <Compile Include="Impl\VaultFormatz\ZipVaultFormat.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataVault.Core\DataVault.Core.csproj">
+      <Project>{F361F867-76B7-4DD3-81B4-8DA5270DD662}</Project>
+      <Name>DataVault.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Impl\Controls\FileSystem\Images\BrowseFolders.png" />
+    <Content Include="Impl\Controls\FileSystem\Images\BrowserBack.png" />
+    <Content Include="Impl\Controls\FileSystem\Images\BrowserForward.png" />
+    <Content Include="Impl\Controls\FileSystem\Images\BrowserUp.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>echo Synchronize assembly revision number with SVN revision
+"$(ProjectDir)..\ThirdPartyStuff\tortoisesVN\subwcrev.bat" "$(ProjectDir)." "$(ProjectDir)Properties\AssemblyInfo.template" "$(ProjectDir)Properties\AssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BrowserForm_Title" xml:space="preserve">
+    <value>Просмотр репозитория (версия {0}, формат {1}) - {2}</value>
+  </data>
+  <data name="CommandFailed_Message" xml:space="preserve">
+    <value>Команда '{0}' завершилась с ошибкой. В результате ошибки ВАШИ ДАННЫЕ МОГЛИ БЫТЬ УТЕРЯНЫ! Пожалуйста, свяжитесь с разработчиком для дальнейших инструкций.
+
+Ошибка вызвана необработанным исключением: '{1}'.</value>
+  </data>
+  <data name="CommandFailed_Title" xml:space="preserve">
+    <value>Критическая ошибка</value>
+  </data>
+  <data name="Confirmation_Title" xml:space="preserve">
+    <value>Требуется подтверждение</value>
+  </data>
+  <data name="MainForm_Title" xml:space="preserve">
+    <value>Редактор репозитория (версия {0}, формат {1}) - {2}</value>
+  </data>
+  <data name="MainForm_Title_NA" xml:space="preserve">
+    <value>Нет файла</value>
+  </data>
+  <data name="New_BranchDefaultName" xml:space="preserve">
+    <value>Новая ветвь {0}</value>
+  </data>
+  <data name="New_BranchDefaultPastedName" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="New_ValueDefaultName" xml:space="preserve">
+    <value>Новый ключ {0}</value>
+  </data>
+  <data name="New_ValueDefaultPastedName" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="New_ValueText" xml:space="preserve">
+    <value>Создать ключ &amp;текстового типа</value>
+  </data>
+  <data name="Tree_Root" xml:space="preserve">
+    <value>Репозиторий</value>
+  </data>
+  <data name="Validation_DuplicateBranchName" xml:space="preserve">
+    <value>Ветвь с именем '{0}' уже существует</value>
+  </data>
+  <data name="Validation_DuplicateValueName" xml:space="preserve">
+    <value>Ключ с именем '{0}' уже существует</value>
+  </data>
+  <data name="Validation_InvalidFsVault" xml:space="preserve">
+    <value>Папка повреждена или не является корневой папкой репозитория</value>
+  </data>
+  <data name="Validation_InvalidName" xml:space="preserve">
+    <value>Имя '{0}' содержит недопустимые символы</value>
+  </data>
+  <data name="Validation_InvalidXmlVault" xml:space="preserve">
+    <value>Файл поврежден или не является файлом xml-репозитория</value>
+  </data>
+  <data name="Validation_InvalidZipVault" xml:space="preserve">
+    <value>Файл поврежден или не является файлом zip-репозитория</value>
+  </data>
+  <data name="Validation_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Validation_ValueTypeNotSelected" xml:space="preserve">
+    <value>Тип ключа обязателен для заполнения</value>
+  </data>
+  <data name="ValueType_NotSelected" xml:space="preserve">
+    <value>(не задан)</value>
+  </data>
+  <data name="ValueType_Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>(по умолчанию)</value>
+  </data>
+  <data name="VaultFormat_ExistingFsVault_Message" xml:space="preserve">
+    <value>В выбранной папке уже хранится репозиторий. Для того, чтобы выполнить текущую операцию, необходимо его удалить. Вы действительно желаете продолжить?</value>
+  </data>
+  <data name="VaultFormat_ExistingFsVault_Title" xml:space="preserve">
+    <value>Требуется подтверждение</value>
+  </data>
+  <data name="VaultFormat_NoIndexFileFsUri_Message" xml:space="preserve">
+    <value>Выбранная папка не содержит индексного файла репозитория. Открытие такой папки может пройти успешно, но может занять исключительно долгое время или даже закончиться ошибкой. Вы действительно желаете продолжить?</value>
+  </data>
+  <data name="VaultFormat_NoIndexFileFsUr_Title" xml:space="preserve">
+    <value>Требуется подтверждение</value>
+  </data>
+  <data name="VaultFormat_NonEmptyFsUri_Message" xml:space="preserve">
+    <value>Выбранная папка непуста. Во время работы редактор репозитория может удалить существующие там файлы и/или папки, если того потребует необходимость сохранения содержимого репозитория. Вы действительно желаете продолжить?</value>
+  </data>
+  <data name="VaultFormat_NonEmptyFsUri_Title" xml:space="preserve">
+    <value>Требуется подтверждение</value>
+  </data>
+  <data name="Version_Empty" xml:space="preserve">
+    <value>неизвестная</value>
+  </data>
+  <data name="Version_UpgradeFailed" xml:space="preserve">
+    <value>Приложению не удалось конвертировать репозиторий из версии '{0}' в версии '{1}'. Данные не были потеряны, но вы не сможете работать с этим репозиторием в текущей версии приложения.</value>
+  </data>
+  <data name="Version_UpgradeFailed_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Version_UpgradeSucceeded" xml:space="preserve">
+    <value>Репозиторий был успешно конвертирован из версии '{0}' в версию '{1}'. Теперь вы можете продолжить работу с репозиторием.</value>
+  </data>
+  <data name="Version_UpgradeSucceeded_Title" xml:space="preserve">
+    <value>Операция успешно завершена</value>
+  </data>
+  <data name="Version_UpgradeVaultToLatestVersion" xml:space="preserve">
+    <value>Версия открываемого репозитория ({0}) отличается от текущей версии приложения ({1}). Для того, чтобы продолжить работу с репозиторием, его необходимо конвертировать в новую версию. Продолжить?
+
+Если вы отмените конвертацию, репозиторий не будет открыт, и вы не сможете работать с данным репозиторием в текущей версии приложения.
+
+Если вы подтвердите конвертацию, программа попытается обновить файл репозитория до соответствия текущей версии. Во время этого процесса содержимое репозитория может измениться. Тем не менее, опасности потери данных нет, потому что перед конвертацией программа создаст резервную копию конвертируемого файла.</value>
+  </data>
+  <data name="Validation_SourceAndTargetOfExportImportAreTheSame" xml:space="preserve">
+    <value>Репозиторий-источник и целевой репозиторий операции экспорта или импорта не могут совпадать.</value>
+  </data>
+  <data name="Import_Precaution_Message" xml:space="preserve">
+    <value>Операция импорта безвозвратно удалит все данные редактируемого репозитория. Продолжить?</value>
+  </data>
+  <data name="Import_Precaution_Title" xml:space="preserve">
+    <value>Требуется подтверждение</value>
+  </data>
+  <data name="New_ValueBinary" xml:space="preserve">
+    <value>Создать ключ типа &amp;файл</value>
+  </data>
+  <data name="ValueType_Binary" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="BinaryType_ContentStringStub" xml:space="preserve">
+    <value>&lt;файл&gt;</value>
+  </data>
+  <data name="BinaryType_ContentCleared" xml:space="preserve">
+    <value>&lt;значение ключа пусто&gt;</value>
+  </data>
+  <data name="BinaryType_ContentNotEditedYet" xml:space="preserve">
+    <value>&lt;значение ключа еще не редактировалось&gt;</value>
+  </data>
+  <data name="BinaryType_ConfirmExtractionToView" xml:space="preserve">
+    <value>Редактор произведет извлечение файла во временную папку и попытается открыть его подходящей программой. Продолжить?</value>
+  </data>
+  <data name="BinaryType_NoApplicationAssociated" xml:space="preserve">
+    <value>С файлом '{0}' не связано ни одно приложение в системе.</value>
+  </data>
+  <data name="Error_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="New_MetadataSectionDefaultName" xml:space="preserve">
+    <value>Новая секция {0}</value>
+  </data>
+  <data name="DefaultEditMetadataForm_SectionTab_Content" xml:space="preserve">
+    <value>Данные:</value>
+  </data>
+  <data name="DefaultEditMetadataForm_SectionTab_Name" xml:space="preserve">
+    <value>Название:</value>
+  </data>
+  <data name="ValueType_Unknown_Fatal" xml:space="preserve">
+    <value>Невозможно обработать ключ типа '{0}'. Убедитесь в том, что у вас установлены плагины, использованные для создания данного репозитория.</value>
+  </data>
+  <data name="ValueType_Unknown_Warning" xml:space="preserve">
+    <value>(неизвестный: {0})</value>
+  </data>
+  <data name="VaultFormat_Fs_DialogTitle_Create" xml:space="preserve">
+    <value>Создание репозитория &gt; Выберите корневую папку репозитория</value>
+  </data>
+  <data name="VaultFormat_Fs_DialogTitle_Export" xml:space="preserve">
+    <value>Экспорт в репозиторий &gt; Выберите корневую папку репозитория-приемника</value>
+  </data>
+  <data name="VaultFormat_Fs_DialogTitle_Import" xml:space="preserve">
+    <value>Импорт из репозитория &gt; Выберите корневую папку репозитория-источника</value>
+  </data>
+  <data name="VaultFormat_Fs_DialogTitle_Open" xml:space="preserve">
+    <value>Открытие репозитория &gt; Выберите корневую папку репозитория</value>
+  </data>
+  <data name="VaultFormat_Fs_TabTitle_Create" xml:space="preserve">
+    <value>FS</value>
+  </data>
+  <data name="VaultFormat_Fs_TabTitle_Export" xml:space="preserve">
+    <value>FS</value>
+  </data>
+  <data name="VaultFormat_Fs_TabTitle_Import" xml:space="preserve">
+    <value>FS</value>
+  </data>
+  <data name="VaultFormat_Fs_TabTitle_Open" xml:space="preserve">
+    <value>FS</value>
+  </data>
+  <data name="VaultFormat_Xml_DialogTitle_Create" xml:space="preserve">
+    <value>Создание репозитория &gt; Выберите файл в формате xml</value>
+  </data>
+  <data name="VaultFormat_Xml_DialogTitle_Export" xml:space="preserve">
+    <value>Экспорт в репозиторий &gt; Выберите файл-приемник в формате xml</value>
+  </data>
+  <data name="VaultFormat_Xml_DialogTitle_Import" xml:space="preserve">
+    <value>Импорт из репозитория &gt; Выберите файл-источник в формате xml</value>
+  </data>
+  <data name="VaultFormat_Xml_DialogTitle_Open" xml:space="preserve">
+    <value>Открытие репозитория &gt; Выберите файл в формате xml</value>
+  </data>
+  <data name="VaultFormat_Xml_TabTitle_Create" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="VaultFormat_Xml_TabTitle_Export" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="VaultFormat_Xml_TabTitle_Import" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="VaultFormat_Xml_TabTitle_Open" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="VaultFormat_Zip_DialogTitle_Create" xml:space="preserve">
+    <value>Создание репозитория &gt; Выберите файл в формате zip</value>
+  </data>
+  <data name="VaultFormat_Zip_DialogTitle_Export" xml:space="preserve">
+    <value>Экспорт в репозиторий &gt; Выберите файл-приемник в формате zip</value>
+  </data>
+  <data name="VaultFormat_Zip_DialogTitle_Import" xml:space="preserve">
+    <value>Импорт из репозитория &gt; Выберите файл-источник в формате zip</value>
+  </data>
+  <data name="VaultFormat_Zip_DialogTitle_Open" xml:space="preserve">
+    <value>Открытие репозитория &gt; Выберите файл в формате zip</value>
+  </data>
+  <data name="VaultFormat_Zip_TabTitle_Create" xml:space="preserve">
+    <value>Zip</value>
+  </data>
+  <data name="VaultFormat_Zip_TabTitle_Export" xml:space="preserve">
+    <value>Zip</value>
+  </data>
+  <data name="VaultFormat_Zip_TabTitle_Import" xml:space="preserve">
+    <value>Zip</value>
+  </data>
+  <data name="VaultFormat_Zip_TabTitle_Open" xml:space="preserve">
+    <value>Zip</value>
+  </data>
+  <data name="Dialogs_BrowseForFile_FileNameLabel" xml:space="preserve">
+    <value>Имя файла:</value>
+  </data>
+  <data name="Dialogs_BrowseForFolder_FolderNameLabel" xml:space="preserve">
+    <value>Имя папки:</value>
+  </data>
+  <data name="Dialogs_BrowseForFile_ConfirmOverwrite_Message" xml:space="preserve">
+    <value>Операция необратимо изменит выбранный файл. Подолжить?</value>
+  </data>
+  <data name="Dialogs_BrowseForFile_ConfirmOverwrite_Title" xml:space="preserve">
+    <value>Требуется подтверждение</value>
+  </data>
+  <data name="Dialogs_BrowseForFolder_ConfirmOverwrite_Message" xml:space="preserve">
+    <value>Операция необратимо изменит выбранную папку. Подолжить?</value>
+  </data>
+  <data name="Dialogs_BrowseForFolder_ConfirmOverwrite_Title" xml:space="preserve">
+    <value>Требуется подтверждение</value>
+  </data>
+  <data name="VaultFormat_ExistingFileBasedVault_Message" xml:space="preserve">
+    <value>В выбранном файле уже хранится репозиторий. Для того, чтобы выполнить текущую операцию, необходимо его удалить. Вы действительно желаете продолжить?</value>
+  </data>
+  <data name="VaultFormat_ExistingFileBasedVault_Title" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Dialogs_BrowseForFile_FolderIsNotValidHere_Message" xml:space="preserve">
+    <value>В этом диалоге нельзя выбрать папку. Пожалуйста, выберите файл.</value>
+  </data>
+  <data name="Dialogs_BrowseForFile_FolderIsNotValidHere_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Dialogs_BrowseForFolder_FileIsNotValidHere_Message" xml:space="preserve">
+    <value>В этом диалоге нельзя выбрать файл. Пожалуйста, выберите папку.</value>
+  </data>
+  <data name="Dialogs_BrowseForFolder_FileIsNotValidHere_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Dialogs_BrowseForFile_NotAFileSystemLocation_Message" xml:space="preserve">
+    <value>Выбранный файл не поддерживается файловой системой. Пожалуйста, выберите другой файл.</value>
+  </data>
+  <data name="Dialogs_BrowseForFile_NotAFileSystemLocation_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Dialogs_BrowseForFolder_NotAFileSystemLocation_Message" xml:space="preserve">
+    <value>Выбранная папка не поддерживается файловой системой. Пожалуйста, выберите другую папку.</value>
+  </data>
+  <data name="Dialogs_BrowseForFolder_NotAFileSystemLocation_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Dialogs_BrowseForFile_FileDoesNotExist_Message" xml:space="preserve">
+    <value>Выбранный вами файл не существует. Пожалуйста, выберите существующий файл.</value>
+  </data>
+  <data name="Dialogs_BrowseForFile_FileDoesNotExist_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Dialogs_BrowseForFolder_FolderDoesNotExist_Message" xml:space="preserve">
+    <value>Выбранная вами папка не существует. Пожалуйста, выберите существующую папку.</value>
+  </data>
+  <data name="Dialogs_BrowseForFolder_FolderDoesNotExist_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Views_CanOnlyPopTopView_Message" xml:space="preserve">
+    <value>Можно отменить только последную из активированных проекций. Для того, чтобы отменить выбранную проекцию, вначале отмените все проекции активированные до нее (они отображены ниже в секции "Активные" меню "Проекции").</value>
+  </data>
+  <data name="Views_CanOnlyPopTopView_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Views_UnknownSingle_Warning" xml:space="preserve">
+    <value>Информация о ранее открытых проекциях не может быть загружена. Редактор не поддерживает проекцию '{0}'. Убедитесь в том, что у вас установлены плагины, использованные для создания данного репозитория.
+
+На текущий момент редактор может либо продолжить работу с репозиторием, удалив запись о неизвестной проекции и опустив загрузку неизвестной проекции, либо завершить работу, чтобы избежать возможной потери данных. Продолжить работу с репозиторием?</value>
+  </data>
+  <data name="Views_UnknownMultiple_Warning" xml:space="preserve">
+    <value>Информация о ранее открытых проекциях не может быть загружена. Редактор не поддерживает проекции '{0}'. Убедитесь в том, что у вас установлены плагины, использованные для создания данного репозитория.
+
+На текущий момент редактор может либо продолжить работу с репозиторием, удалив записи о неизвестных проекциях и опустив загрузку неизвестных проекций, либо завершить работу, чтобы избежать возможной потери данных. Продолжить работу с репозиторием?</value>
+  </data>
+  <data name="Views_CorruptedViewNote_Message" xml:space="preserve">
+    <value>Информация о ранее открытых проекциях повреждена и не может быть загружена.
+
+На текущий момент редактор может либо продолжить работу с репозиторием, устранив повреждения и не загружая никаких проекций, либо завершить работу, чтобы избежать возможной потери данных. Продолжить работу с репозиторием?</value>
+  </data>
+  <data name="Views_CorruptedViewNote_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Version_UnknownVersion" xml:space="preserve">
+    <value>Открываемый репозиторий имеет неизвестную версию {0}. Вы не сможете работать с данным репозиторием в текущей версии приложения. Пожалуйста, свяжитесь с администратором для дальнейших инструкций.</value>
+  </data>
+  <data name="Version_UnknownVersion_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="ShellIntegration_UnknownFormat_Message" xml:space="preserve">
+    <value>Невозможно открыть репозиторий по адресу '{0}'. Его формат не поддерживается ни одним из модулей приложения ({1}).</value>
+  </data>
+  <data name="ShellIntegration_UnknownFormat_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Views_MenuItem_Template" xml:space="preserve">
+    <value>{0} (версия {1})</value>
+  </data>
+  <data name="CloseVaultWhenDirty_Buttons" xml:space="preserve">
+    <value>Сохранить и закрыть | Не сохранять | {Cancel}</value>
+  </data>
+  <data name="CloseVaultWhenDirty_Message" xml:space="preserve">
+    <value>Операция, которую вы собираетесь выполнить, закроет текущий репозиторий. Однако этот репозиторий содержит несохраненные изменения. Необходимо ваше вмешательство для разрешения конфликта.
+
+* "Сохранить и закрыть" сохранит репозиторий на диск и потом закроет его.
+* "Не сохранять" просто закроет репозиторий, отменив текущие изменения.
+* "Отмена" отменит текущую операцию и оставит репозиторий открытым для ручной обработки конфликта.</value>
+  </data>
+  <data name="CloseVaultWhenDirty_Title" xml:space="preserve">
+    <value>Необходимо вмешательство</value>
+  </data>
+  <data name="CustomMessageBox_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="CustomMessageBox_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CustomMessageBox_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="CustomMessageBox_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="CustomMessageBox_Abort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="CustomMessageBox_Retry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="CustomMessageBox_Ignore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="ExitFailedDueToAnException_Message" xml:space="preserve">
+    <value>Ваша попытка закрыть приложение завершилась неожиданной ошибкой. Пока эта проблема не будет разрешена приложение не сможет закрыться самостоятельно.
+
+Лучшим решением будет связаться с разработчиком для дальнейших инструкций.  Также возможен вариант принудительного закрытия приложения, но он опасен возможностью дальнейшей ПОТЕРИ ДАННЫХ.
+
+Продолжить закрытие приложения и принять риск потенциальной потери данных (Да) или вернуться в приложение и попытаться исправить ситуацию (Нет)?</value>
+  </data>
+  <data name="ExitFailedDueToAnException_Title" xml:space="preserve">
+    <value>Критическая ошибка</value>
+  </data>
+</root>

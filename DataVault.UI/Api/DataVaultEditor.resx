@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;_tree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_separator11.Name" xml:space="preserve">
+    <value>_separator11</value>
+  </data>
+  <data name="&gt;&gt;_branch.Name" xml:space="preserve">
+    <value>_branch</value>
+  </data>
+  <data name="&gt;&gt;_views.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_branchMoveUpPopup.Text" xml:space="preserve">
+    <value>Move &amp;Up</value>
+  </data>
+  <data name="&gt;&gt;separator2.Name" xml:space="preserve">
+    <value>separator2</value>
+  </data>
+  <data name="&gt;&gt;_edit.Name" xml:space="preserve">
+    <value>_edit</value>
+  </data>
+  <data name="&gt;&gt;_branchDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_valueRenamePopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_branchRenamePopup.Text" xml:space="preserve">
+    <value>&amp;Rename</value>
+  </data>
+  <data name="&gt;&gt;_views.Name" xml:space="preserve">
+    <value>_views</value>
+  </data>
+  <data name="_branchMoveDown.Text" xml:space="preserve">
+    <value>Move D&amp;own</value>
+  </data>
+  <data name="&gt;&gt;_branchMoveUpPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_branchEditMetadata.Text" xml:space="preserve">
+    <value>Edit &amp;Metadata...</value>
+  </data>
+  <data name="&gt;&gt;_valueEditMetadata.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_separator13.Name" xml:space="preserve">
+    <value>_separator13</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_vaultExport.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+E</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuHost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_vaultExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="_mainMenuHost.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;_separator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_branchEditMetadata.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valueEditMetadataPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="_mainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_valueColumn.Width" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="_branchMoveUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="_valueCopyPopup2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="_vaultImport.Text" xml:space="preserve">
+    <value>&amp;Import...</value>
+  </data>
+  <data name="&gt;&gt;_editPaste.Name" xml:space="preserve">
+    <value>_editPaste</value>
+  </data>
+  <data name="&gt;&gt;_value.Name" xml:space="preserve">
+    <value>_value</value>
+  </data>
+  <data name="_valueNewDummy.Text" xml:space="preserve">
+    <value>&amp;New (will be replaced and filled dynamically)</value>
+  </data>
+  <data name="&gt;&gt;_container.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;separator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_editPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>913, 605</value>
+  </data>
+  <data name="_editUndo.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Z</value>
+  </data>
+  <data name="_valueNewDummyPopup2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_branchNewPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 22</value>
+  </data>
+  <data name="_viewsAvailable.Text" xml:space="preserve">
+    <value>* Available:</value>
+  </data>
+  <data name="_valueCutPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;_valueNewDummy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_separator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 6</value>
+  </data>
+  <data name="_valueDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="&gt;&gt;_valuePopup2.Name" xml:space="preserve">
+    <value>_valuePopup2</value>
+  </data>
+  <data name="_valueRenamePopup.Text" xml:space="preserve">
+    <value>&amp;Rename</value>
+  </data>
+  <data name="_branchMoveDown.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Down</value>
+  </data>
+  <data name="&gt;&gt;_valueEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_edit.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="_valueRename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="&gt;&gt;_container.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_typeColumn.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="_container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="_viewsActiveDummy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="&gt;&gt;_valueRenamePopup.Name" xml:space="preserve">
+    <value>_valueRenamePopup</value>
+  </data>
+  <data name="_branchRename.Text" xml:space="preserve">
+    <value>&amp;Rename</value>
+  </data>
+  <data name="_viewsActiveDummy.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;separator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_branchMoveUp.Name" xml:space="preserve">
+    <value>_branchMoveUp</value>
+  </data>
+  <data name="&gt;&gt;_edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 18</value>
+  </data>
+  <data name="_editPaste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="_branchCopyPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 22</value>
+  </data>
+  <data name="&gt;&gt;_separator3.Name" xml:space="preserve">
+    <value>_separator3</value>
+  </data>
+  <data name="&gt;&gt;separator1.Name" xml:space="preserve">
+    <value>separator1</value>
+  </data>
+  <data name="_valueNewDummy.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_vaultExit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="&gt;&gt;_branchEditMetadata.Name" xml:space="preserve">
+    <value>_branchEditMetadata</value>
+  </data>
+  <data name="_valueNewDummyPopup2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="&gt;&gt;_valueCutPopup2.Name" xml:space="preserve">
+    <value>_valueCutPopup2</value>
+  </data>
+  <data name="_branchCopyPopup.Text" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="_separator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 6</value>
+  </data>
+  <data name="_branchDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="&gt;&gt;_valueRename.Name" xml:space="preserve">
+    <value>_valueRename</value>
+  </data>
+  <data name="&gt;&gt;_valueRename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_container.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_tree.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="_separator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="_separator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 6</value>
+  </data>
+  <data name="&gt;&gt;_viewsActiveDummy.Name" xml:space="preserve">
+    <value>_viewsActiveDummy</value>
+  </data>
+  <data name="&gt;&gt;_branchRenamePopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_editCut.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+X</value>
+  </data>
+  <data name="_value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 18</value>
+  </data>
+  <data name="&gt;&gt;_valueEditMetadata.Name" xml:space="preserve">
+    <value>_valueEditMetadata</value>
+  </data>
+  <data name="_views.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 18</value>
+  </data>
+  <data name="_vaultExport.Text" xml:space="preserve">
+    <value>&amp;Export...</value>
+  </data>
+  <data name="_branchMoveDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="_branchEditMetadataPopup.Text" xml:space="preserve">
+    <value>Edit &amp;Metadata...</value>
+  </data>
+  <data name="_vaultNew.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="_valueCutPopup2.Text" xml:space="preserve">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="&gt;&gt;_branchValueNewDummyPopup.Name" xml:space="preserve">
+    <value>_branchValueNewDummyPopup</value>
+  </data>
+  <data name="&gt;&gt;_valuePastePopup2.Name" xml:space="preserve">
+    <value>_valuePastePopup2</value>
+  </data>
+  <data name="&gt;&gt;_editCut.Name" xml:space="preserve">
+    <value>_editCut</value>
+  </data>
+  <data name="&gt;&gt;_vaultImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_valuePopup2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_vaultSave.Name" xml:space="preserve">
+    <value>_vaultSave</value>
+  </data>
+  <data name="&gt;&gt;_branchRenamePopup.Name" xml:space="preserve">
+    <value>_branchRenamePopup</value>
+  </data>
+  <data name="&gt;&gt;_separator12.Name" xml:space="preserve">
+    <value>_separator12</value>
+  </data>
+  <data name="&gt;&gt;_vaultExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_branchMoveUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_valuePopup.Name" xml:space="preserve">
+    <value>_valuePopup</value>
+  </data>
+  <data name="&gt;&gt;_list.Name" xml:space="preserve">
+    <value>_list</value>
+  </data>
+  <data name="&gt;&gt;_branchMoveDown.Name" xml:space="preserve">
+    <value>_branchMoveDown</value>
+  </data>
+  <data name="_tree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_viewsAvailableDummy.Name" xml:space="preserve">
+    <value>_viewsAvailableDummy</value>
+  </data>
+  <data name="&gt;&gt;_container.Panel1.Parent" xml:space="preserve">
+    <value>_container</value>
+  </data>
+  <data name="_tree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 605</value>
+  </data>
+  <data name="&gt;&gt;_branchPopup.Name" xml:space="preserve">
+    <value>_branchPopup</value>
+  </data>
+  <data name="_branchMoveUp.Text" xml:space="preserve">
+    <value>Move &amp;Up</value>
+  </data>
+  <data name="_separator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="_valueDeletePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="_vaultNew.Text" xml:space="preserve">
+    <value>&amp;New...</value>
+  </data>
+  <data name="&gt;&gt;_container.Panel1.Name" xml:space="preserve">
+    <value>_container.Panel1</value>
+  </data>
+  <data name="&gt;&gt;_valueEditPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_viewsAvailable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_valueNewDummyPopup2.Name" xml:space="preserve">
+    <value>_valueNewDummyPopup2</value>
+  </data>
+  <data name="&gt;&gt;_valueDeletePopup.Name" xml:space="preserve">
+    <value>_valueDeletePopup</value>
+  </data>
+  <data name="&gt;&gt;_separator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_branchValueNewDummyPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 22</value>
+  </data>
+  <data name="separator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 6</value>
+  </data>
+  <data name="_editCopy.Text" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="&gt;&gt;_vaultNew.Name" xml:space="preserve">
+    <value>_vaultNew</value>
+  </data>
+  <data name="&gt;&gt;_branchCutPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_list.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 605</value>
+  </data>
+  <data name="&gt;&gt;_editRedo.Name" xml:space="preserve">
+    <value>_editRedo</value>
+  </data>
+  <data name="_branchCutPopup.Text" xml:space="preserve">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="_separator13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 6</value>
+  </data>
+  <data name="_branchDeletePopup.Text" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="&gt;&gt;_separator5.Name" xml:space="preserve">
+    <value>_separator5</value>
+  </data>
+  <data name="_editCut.Text" xml:space="preserve">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="_valuePastePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="_vaultImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="&gt;&gt;_mainMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_vaultOpen.Name" xml:space="preserve">
+    <value>_vaultOpen</value>
+  </data>
+  <data name="_editRedo.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Y</value>
+  </data>
+  <data name="_valueCopyPopup2.Text" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="&gt;&gt;_viewsAvailableDummy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valueCutPopup.Text" xml:space="preserve">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="_editUndo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="&gt;&gt;_list.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_branchRename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valuePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 164</value>
+  </data>
+  <data name="_mainMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;_nameColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_vaultExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_branchValueNewDummyPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_branchEditMetadataPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_branchRename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="_value.Text" xml:space="preserve">
+    <value>&amp;Value</value>
+  </data>
+  <data name="&gt;&gt;_valueCopyPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_container.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_editPaste.Text" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="_separator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 6</value>
+  </data>
+  <data name="_viewsAvailableDummy.Text" xml:space="preserve">
+    <value>(will be replaced and filled dynamically)</value>
+  </data>
+  <data name="_editCut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="_typeColumn.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="_vaultOpen.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="&gt;&gt;_valuePastePopup.Name" xml:space="preserve">
+    <value>_valuePastePopup</value>
+  </data>
+  <data name="_valueEditPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="_separator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 6</value>
+  </data>
+  <data name="&gt;&gt;_tree.Name" xml:space="preserve">
+    <value>_tree</value>
+  </data>
+  <data name="&gt;&gt;_valueNewDummyPopup2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_separator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 6</value>
+  </data>
+  <data name="&gt;&gt;_branchDeletePopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_viewsActiveDummy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_container.Panel2.Name" xml:space="preserve">
+    <value>_container.Panel2</value>
+  </data>
+  <data name="&gt;&gt;_value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_viewsActive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_branchCutPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 22</value>
+  </data>
+  <data name="_branchEditMetadata.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="_branchValueNewDummyPopup.Text" xml:space="preserve">
+    <value>&amp;New value (will be replaced and filled dynamically)</value>
+  </data>
+  <data name="&gt;&gt;_mainMenu.Parent" xml:space="preserve">
+    <value>_mainMenuHost</value>
+  </data>
+  <data name="&gt;&gt;_valueColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_branch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 18</value>
+  </data>
+  <data name="_valuePastePopup2.Text" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="_vault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 18</value>
+  </data>
+  <data name="_branchEditMetadataPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 22</value>
+  </data>
+  <data name="_vaultNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="_separator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 6</value>
+  </data>
+  <data name="_valueEditMetadata.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="&gt;&gt;_vaultSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_branchPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 248</value>
+  </data>
+  <data name="_valueEditMetadata.Text" xml:space="preserve">
+    <value>Edit &amp;Metadata...</value>
+  </data>
+  <data name="&gt;&gt;_branchMoveDownPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_separator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_container.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="_mainMenuHost.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_valueColumn.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="_branchMoveUp.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Up</value>
+  </data>
+  <data name="&gt;&gt;_editCut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_typeColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valueRenamePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="_vault.Text" xml:space="preserve">
+    <value>&amp;Vault</value>
+  </data>
+  <data name="_valueNewDummyPopup2.Text" xml:space="preserve">
+    <value>&amp;New (will be replaced and filled dynamically)</value>
+  </data>
+  <data name="_nameColumn.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_vaultSave.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="&gt;&gt;_tree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_separator8.Name" xml:space="preserve">
+    <value>_separator8</value>
+  </data>
+  <data name="_vaultOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="&gt;&gt;_branchMoveDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DataVaultEditor</value>
+  </data>
+  <data name="&gt;&gt;_editUndo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_nameColumn.Name" xml:space="preserve">
+    <value>_nameColumn</value>
+  </data>
+  <data name="&gt;&gt;_viewsAvailable.Name" xml:space="preserve">
+    <value>_viewsAvailable</value>
+  </data>
+  <data name="_valueEditPopup.Text" xml:space="preserve">
+    <value>&amp;Edit...</value>
+  </data>
+  <data name="_tree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;_list.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_valuePastePopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_separator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_separator10.Name" xml:space="preserve">
+    <value>_separator10</value>
+  </data>
+  <data name="_branchRenamePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 22</value>
+  </data>
+  <data name="&gt;&gt;_vaultExit.Name" xml:space="preserve">
+    <value>_vaultExit</value>
+  </data>
+  <data name="&gt;&gt;_vaultImport.Name" xml:space="preserve">
+    <value>_vaultImport</value>
+  </data>
+  <data name="_vaultSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="_valuePastePopup.Text" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="&gt;&gt;_valueCutPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_valueCopyPopup.Name" xml:space="preserve">
+    <value>_valueCopyPopup</value>
+  </data>
+  <data name="&gt;&gt;_editRedo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_viewsAvailableDummy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="&gt;&gt;_vaultExport.Name" xml:space="preserve">
+    <value>_vaultExport</value>
+  </data>
+  <data name="&gt;&gt;_branchCutPopup.Name" xml:space="preserve">
+    <value>_branchCutPopup</value>
+  </data>
+  <data name="_mainMenuHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;_branchRename.Name" xml:space="preserve">
+    <value>_branchRename</value>
+  </data>
+  <data name="&gt;&gt;_branchDeletePopup.Name" xml:space="preserve">
+    <value>_branchDeletePopup</value>
+  </data>
+  <data name="&gt;&gt;_vault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_branchNewPopup.Text" xml:space="preserve">
+    <value>&amp;New branch</value>
+  </data>
+  <data name="_list.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;_valueCopyPopup2.Name" xml:space="preserve">
+    <value>_valueCopyPopup2</value>
+  </data>
+  <data name="_views.Text" xml:space="preserve">
+    <value>&amp;Views</value>
+  </data>
+  <data name="&gt;&gt;_separator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_vaultOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_valueCutPopup.Name" xml:space="preserve">
+    <value>_valueCutPopup</value>
+  </data>
+  <data name="_valueEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="_valuePopup2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 98</value>
+  </data>
+  <data name="_list.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_valueEditMetadataPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valuePastePopup2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="&gt;&gt;_branchCopyPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_editCopy.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="&gt;&gt;_branchPastePopup.Name" xml:space="preserve">
+    <value>_branchPastePopup</value>
+  </data>
+  <data name="_editCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="&gt;&gt;_valuePopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_separator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_separator4.Name" xml:space="preserve">
+    <value>_separator4</value>
+  </data>
+  <data name="_valueCopyPopup.Text" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="&gt;&gt;_viewsActive.Name" xml:space="preserve">
+    <value>_viewsActive</value>
+  </data>
+  <data name="_branchDeletePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 22</value>
+  </data>
+  <data name="&gt;&gt;_valueDelete.Name" xml:space="preserve">
+    <value>_valueDelete</value>
+  </data>
+  <data name="&gt;&gt;_vaultNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valueNewDummy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="&gt;&gt;_separator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_valueColumn.Name" xml:space="preserve">
+    <value>_valueColumn</value>
+  </data>
+  <data name="&gt;&gt;_valueEditPopup.Name" xml:space="preserve">
+    <value>_valueEditPopup</value>
+  </data>
+  <data name="&gt;&gt;_branchEditMetadataPopup.Name" xml:space="preserve">
+    <value>_branchEditMetadataPopup</value>
+  </data>
+  <data name="&gt;&gt;_branchPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_container.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_valueDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_list.Parent" xml:space="preserve">
+    <value>_container.Panel2</value>
+  </data>
+  <data name="_branch.Text" xml:space="preserve">
+    <value>&amp;Branch</value>
+  </data>
+  <data name="&gt;&gt;_branchNew.Name" xml:space="preserve">
+    <value>_branchNew</value>
+  </data>
+  <data name="&gt;&gt;_container.Name" xml:space="preserve">
+    <value>_container</value>
+  </data>
+  <data name="&gt;&gt;_branchMoveDownPopup.Name" xml:space="preserve">
+    <value>_branchMoveDownPopup</value>
+  </data>
+  <data name="_valueEditMetadataPopup.Text" xml:space="preserve">
+    <value>Edit &amp;Metadata...</value>
+  </data>
+  <data name="&gt;&gt;_tree.Parent" xml:space="preserve">
+    <value>_container.Panel1</value>
+  </data>
+  <data name="&gt;&gt;_separator7.Name" xml:space="preserve">
+    <value>_separator7</value>
+  </data>
+  <data name="&gt;&gt;_branchNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_container.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_branchNewPopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valueEdit.Text" xml:space="preserve">
+    <value>&amp;Edit...</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuHost.Name" xml:space="preserve">
+    <value>_mainMenuHost</value>
+  </data>
+  <data name="_branchNew.Text" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="_vaultSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="&gt;&gt;_mainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valueRename.Text" xml:space="preserve">
+    <value>&amp;Rename</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuHost.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;_editCopy.Name" xml:space="preserve">
+    <value>_editCopy</value>
+  </data>
+  <data name="&gt;&gt;_branch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_viewsActive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="_branchMoveDownPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 22</value>
+  </data>
+  <data name="&gt;&gt;_mainMenu.Name" xml:space="preserve">
+    <value>_mainMenu</value>
+  </data>
+  <data name="&gt;&gt;_separator6.Name" xml:space="preserve">
+    <value>_separator6</value>
+  </data>
+  <data name="&gt;&gt;_editCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_separator13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_branchMoveDownPopup.Text" xml:space="preserve">
+    <value>Move D&amp;own</value>
+  </data>
+  <data name="&gt;&gt;_separator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_nameColumn.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="_vaultExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="_branchPastePopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 22</value>
+  </data>
+  <data name="_mainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_branchValueNewDummyPopup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;_valueCutPopup2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_vaultOpen.Text" xml:space="preserve">
+    <value>&amp;Open...</value>
+  </data>
+  <data name="_editPaste.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+V</value>
+  </data>
+  <data name="_branchDelete.Text" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="_mainMenu.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="_mainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>913, 22</value>
+  </data>
+  <data name="_mainMenuHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>913, 22</value>
+  </data>
+  <data name="&gt;&gt;_branchNewPopup.Name" xml:space="preserve">
+    <value>_branchNewPopup</value>
+  </data>
+  <data name="&gt;&gt;_valueEdit.Name" xml:space="preserve">
+    <value>_valueEdit</value>
+  </data>
+  <data name="&gt;&gt;_valuePastePopup2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_editRedo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="&gt;&gt;_branchPastePopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_valueEditMetadataPopup.Name" xml:space="preserve">
+    <value>_valueEditMetadataPopup</value>
+  </data>
+  <data name="_viewsAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="_viewsAvailableDummy.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_viewsActiveDummy.Text" xml:space="preserve">
+    <value>(will be replaced and filled dynamically)</value>
+  </data>
+  <data name="_vaultExit.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="_vaultImport.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+I</value>
+  </data>
+  <data name="&gt;&gt;_branchDelete.Name" xml:space="preserve">
+    <value>_branchDelete</value>
+  </data>
+  <data name="&gt;&gt;_mainMenuHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valueCutPopup2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="_viewsActive.Text" xml:space="preserve">
+    <value>* Active:</value>
+  </data>
+  <data name="&gt;&gt;_container.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;_valueDeletePopup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valueDelete.Text" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="_list.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;_valueCopyPopup2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_valueDeletePopup.Text" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="_editUndo.Text" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="_branchNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="separator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 6</value>
+  </data>
+  <data name="&gt;&gt;_typeColumn.Name" xml:space="preserve">
+    <value>_typeColumn</value>
+  </data>
+  <data name="_branchMoveUpPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 22</value>
+  </data>
+  <data name="&gt;&gt;_container.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_container.Panel2.Parent" xml:space="preserve">
+    <value>_container</value>
+  </data>
+  <data name="_container.SplitterDistance" type="System.Int32, mscorlib">
+    <value>304</value>
+  </data>
+  <data name="&gt;&gt;_editUndo.Name" xml:space="preserve">
+    <value>_editUndo</value>
+  </data>
+  <data name="_branchPastePopup.Text" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="&gt;&gt;_separator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_separator9.Name" xml:space="preserve">
+    <value>_separator9</value>
+  </data>
+  <data name="_editRedo.Text" xml:space="preserve">
+    <value>&amp;Redo</value>
+  </data>
+  <data name="&gt;&gt;_branchCopyPopup.Name" xml:space="preserve">
+    <value>_branchCopyPopup</value>
+  </data>
+  <data name="&gt;&gt;_separator12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_branchMoveUpPopup.Name" xml:space="preserve">
+    <value>_branchMoveUpPopup</value>
+  </data>
+  <data name="&gt;&gt;_vault.Name" xml:space="preserve">
+    <value>_vault</value>
+  </data>
+  <data name="_valueCopyPopup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="_separator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 6</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>913, 627</value>
+  </data>
+  <data name="&gt;&gt;_valueNewDummy.Name" xml:space="preserve">
+    <value>_valueNewDummy</value>
+  </data>
+  <metadata name="_mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="_valuePopup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>247, 17</value>
+  </metadata>
+  <metadata name="_branchPopup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>362, 17</value>
+  </metadata>
+  <metadata name="_valuePopup2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Russian (Russia)</value>
+  </metadata>
+</root>

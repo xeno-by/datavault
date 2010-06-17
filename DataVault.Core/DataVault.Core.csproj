@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F361F867-76B7-4DD3-81B4-8DA5270DD662}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataVault.Core</RootNamespace>
+    <AssemblyName>DataVault.Core</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>183</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\ApiExtensions.cs" />
+    <Compile Include="Api\ApiExtensionsChangingEvents.cs" />
+    <Compile Include="Api\CollisionHandling.cs" />
+    <Compile Include="Api\ApiExtensionsChangedEvents.cs" />
+    <Compile Include="Api\CoreConstants.cs" />
+    <Compile Include="Api\Events\BranchChangedEventArgs.cs" />
+    <Compile Include="Api\Events\BranchChangingEventArgs.cs" />
+    <Compile Include="Api\Events\ElementChangedEventArgs.cs" />
+    <Compile Include="Api\Events\ElementChangingEventArgs.cs" />
+    <Compile Include="Api\Events\ElementEventArgs.cs" />
+    <Compile Include="Api\Events\EventReason.cs" />
+    <Compile Include="Api\Events\ValueChangedEventArgs.cs" />
+    <Compile Include="Api\Events\ValueChangingEventArgs.cs" />
+    <Compile Include="Api\IValue.cs" />
+    <Compile Include="Api\IBranch.cs" />
+    <Compile Include="Api\IElement.cs" />
+    <Compile Include="Api\IVault.cs" />
+    <Compile Include="Api\IMetadata.cs" />
+    <Compile Include="Api\VaultVisitor.cs" />
+    <Compile Include="Api\VaultVisitorComposite.cs" />
+    <Compile Include="Api\VirtualizationApi.cs" />
+    <Compile Include="Helpers\ActionsAndFuncs.cs" />
+    <Compile Include="Helpers\Assertions\AssertionFailedException.cs" />
+    <Compile Include="Helpers\Assertions\AssertionHelper.cs" />
+    <Compile Include="Helpers\Codegen\CustomAttributeBuilderTrait.cs" />
+    <Compile Include="Helpers\Codegen\CustomAttributeProviderTrait.cs" />
+    <Compile Include="Helpers\Codegen\FromLambda.cs" />
+    <Compile Include="Helpers\Codegen\ILTrait.cs" />
+    <Compile Include="Helpers\Codegen\InterfaceMappingTrait.cs" />
+    <Compile Include="Helpers\Codegen\MethodBuilderTrait.cs" />
+    <Compile Include="Helpers\Codegen\MethodInfoTrait.cs" />
+    <Compile Include="Helpers\Codegen\MyTrait.cs" />
+    <Compile Include="Helpers\Codegen\TypeBuilderTrait.cs" />
+    <Compile Include="Helpers\Codegen\TypeTrait.cs" />
+    <Compile Include="Helpers\Collections\BaseDictionary.cs" />
+    <Compile Include="Helpers\Collections\ItemListChangeAction.cs" />
+    <Compile Include="Helpers\Collections\ItemListChangeEventArgs.cs" />
+    <Compile Include="Helpers\Collections\ItemListChangeEventHandler.cs" />
+    <Compile Include="Helpers\Collections\StackItemEventArgs.cs" />
+    <Compile Include="Helpers\Collections\StackSlim.cs" />
+    <Compile Include="Helpers\Collections\TrackableList.cs" />
+    <Compile Include="Helpers\Collections\WeakKeyComparer.cs" />
+    <Compile Include="Helpers\Collections\WeakKeyDictionary.cs" />
+    <Compile Include="Helpers\Collections\WeakKeyReference.cs" />
+    <Compile Include="Helpers\Collections\WeakKeyWeakValueDictionary.cs" />
+    <Compile Include="Helpers\Collections\WeakNullReference.cs" />
+    <Compile Include="Helpers\Collections\WeakReference.cs" />
+    <Compile Include="Helpers\Combinatorics.cs" />
+    <Compile Include="Helpers\ConversionsHelper.cs" />
+    <Compile Include="Helpers\EventHelper.cs" />
+    <Compile Include="Helpers\Events\AggregatingCallbackChain.cs" />
+    <Compile Include="Helpers\Events\CallbackChain.cs" />
+    <Compile Include="Helpers\Exceptions\ExceptionWhenHandlingException.cs" />
+    <Compile Include="Helpers\LinqHelpers.cs" />
+    <Compile Include="Helpers\Reflection\AttributeHelper.cs" />
+    <Compile Include="Helpers\Reflection\ClassificationHelper.cs" />
+    <Compile Include="Helpers\Reflection\FunctionTypesHelper.cs" />
+    <Compile Include="Helpers\Reflection\GenericsHelper.cs" />
+    <Compile Include="Helpers\Reflection\ReflectionHelper.cs" />
+    <Compile Include="Helpers\Reflection\Shortcuts\BF.cs" />
+    <Compile Include="Helpers\Reflection\Shortcuts\CC.cs" />
+    <Compile Include="Helpers\Reflection\Shortcuts\FA.cs" />
+    <Compile Include="Helpers\Reflection\Shortcuts\MA.cs" />
+    <Compile Include="Helpers\Reflection\Shortcuts\ParmA.cs" />
+    <Compile Include="Helpers\Reflection\Shortcuts\PropA.cs" />
+    <Compile Include="Helpers\Reflection\Shortcuts\TA.cs" />
+    <Compile Include="Helpers\StringHelper.cs" />
+    <Compile Include="Helpers\StronglyTypedReflection\Api.Methods.Action.cs" />
+    <Compile Include="Helpers\StronglyTypedReflection\Api.Methods.cs" />
+    <Compile Include="Helpers\StronglyTypedReflection\Api.Methods.Func.cs" />
+    <Compile Include="Helpers\StronglyTypedReflection\Api.Slots.cs" />
+    <Compile Include="Helpers\StronglyTypedReflection\Slot.cs" />
+    <Compile Include="Helpers\StronglyTypedReflection\_.cs" />
+    <Compile Include="Helpers\ToStringHelper.cs" />
+    <Compile Include="Helpers\Tuples.cs" />
+    <Compile Include="Impl\Api\ApiExtensions.cs" />
+    <Compile Include="Impl\Api\IVaultBoundElement.cs" />
+    <Compile Include="Impl\Branch.cs" />
+    <Compile Include="Impl\Api\IContentAwareVault.cs" />
+    <Compile Include="Impl\Fs\FileDirCoexistence.cs" />
+    <Compile Include="Helpers\FsUtils.cs" />
+    <Compile Include="Impl\Fs\FsVaultEntry.cs" />
+    <Compile Include="Helpers\StringUtils.cs" />
+    <Compile Include="Impl\Fs\VaultStructure.cs" />
+    <Compile Include="Impl\Metadata.cs" />
+    <Compile Include="Impl\Optimize\INamedObject.cs" />
+    <Compile Include="Impl\Optimize\IndexedBranchCollection.cs" />
+    <Compile Include="Impl\Optimize\IndexedNamedObjectCollection.cs" />
+    <Compile Include="Impl\Optimize\IndexedValueCollection.cs" />
+    <Compile Include="Impl\Memory\InMemoryVault.cs" />
+    <Compile Include="Impl\Optimize\IndexedNodeCollection.cs" />
+    <Compile Include="Impl\Value.cs" />
+    <Compile Include="Impl\ValueKind.cs" />
+    <Compile Include="Impl\VaultBase.cs" />
+    <Compile Include="Impl\Fs\FsVault.cs" />
+    <Compile Include="Impl\Virtual\VirtualVault.cs" />
+    <Compile Include="Impl\Xml\XmlBranchDto.cs" />
+    <Compile Include="Impl\Xml\XmlValueDto.cs" />
+    <Compile Include="Impl\Xml\XmlVault.cs" />
+    <Compile Include="Impl\Xml\XmlVaultDto.cs" />
+    <Compile Include="Impl\Zip\ZipVault.cs" />
+    <Compile Include="Impl\Element.cs" />
+    <Compile Include="Helpers\EnumerableExtensions.cs" />
+    <Compile Include="Api\VPath.cs" />
+    <Compile Include="Helpers\StreamUtilities.cs" />
+    <Compile Include="Helpers\VPathHelper.cs" />
+    <Compile Include="Impl\Zip\ZipLib\ZipSharedUtilities.cs" />
+    <Compile Include="Impl\Zip\ZipLib\AddOrUpdateAction.cs" />
+    <Compile Include="Impl\Zip\ZipLib\CRC32.cs" />
+    <Compile Include="Impl\Zip\ZipLib\Streams\CountingStream.cs" />
+    <Compile Include="Impl\Zip\ZipLib\Streams\CrcCalculatorStream.cs" />
+    <Compile Include="Impl\Zip\ZipLib\Exceptions\BadCrcException.cs" />
+    <Compile Include="Impl\Zip\ZipLib\Exceptions\BadReadException.cs" />
+    <Compile Include="Impl\Zip\ZipLib\Exceptions\BadStateException.cs" />
+    <Compile Include="Impl\Zip\ZipLib\EntrySource.cs" />
+    <Compile Include="Impl\Zip\ZipLib\ZipDirEntry.cs" />
+    <Compile Include="Impl\Zip\ZipLib\ZipEntry.cs" />
+    <Compile Include="Impl\Zip\ZipLib\Exceptions\ZipException.cs" />
+    <Compile Include="Impl\Zip\ZipLib\ZipFile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Api\VaultApi.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Impl\Xml\DataVault.Core.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AssemblyInfo.template" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>echo Synchronize assembly revision number with SVN revision
+"$(ProjectDir)..\ThirdPartyStuff\tortoisesVN\subwcrev.bat" "$(ProjectDir)." "$(ProjectDir)Properties\AssemblyInfo.template" "$(ProjectDir)Properties\AssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
+</Project>
