@@ -159,6 +159,10 @@
     <Compile Include="Impl\Zip\ZipLib\ZipEntry.cs" />
     <Compile Include="Impl\Zip\ZipLib\Exceptions\ZipException.cs" />
     <Compile Include="Impl\Zip\ZipLib\ZipFile.cs" />
+    <Compile Include="Properties\AssemblyBuiltAtAttribute.cs" />
+    <Compile Include="Properties\AssemblyBuiltByAttribute.cs" />
+    <Compile Include="Properties\AssemblyBuiltFromAttribute.cs" />
+    <Compile Include="Properties\AssemblyBuiltOnAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Api\VaultApi.cs" />
   </ItemGroup>
@@ -177,7 +181,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PreBuildEvent>echo Synchronize assembly revision number with SVN revision
-"$(ProjectDir)..\ThirdPartyStuff\tortoisesVN\subwcrev.bat" "$(ProjectDir)." "$(ProjectDir)Properties\AssemblyInfo.template" "$(ProjectDir)Properties\AssemblyInfo.cs"</PreBuildEvent>
+    <PreBuildEvent>"$(ProjectDir)..\ThirdPartyStuff\autoversioner\AutoVersioner.exe" "$(ProjectDir)$(ProjectFileName)" "$(ProjectDir)Properties\AssemblyInfo.template" "$(ProjectDir)Properties\AssemblyInfo.cs"</PreBuildEvent>
   </PropertyGroup>
 </Project>

@@ -46,6 +46,10 @@
     <Compile Include="Api\Commands\WithHistory\ICommandExecutorWithHistory.cs" />
     <Compile Include="Api\ContentTypez\UnknownContentType.cs" />
     <Compile Include="Api\ContentTypez\UnknownContentTypeAppliedToValue.cs" />
+    <Compile Include="Properties\AssemblyBuiltAtAttribute.cs" />
+    <Compile Include="Properties\AssemblyBuiltByAttribute.cs" />
+    <Compile Include="Properties\AssemblyBuiltFromAttribute.cs" />
+    <Compile Include="Properties\AssemblyBuiltOnAttribute.cs" />
     <Compile Include="Utils\CustomMessageBoxes\CustomMessageBox.cs" />
     <Compile Include="Utils\CustomMessageBoxes\CustomMessageBoxButtons.cs" />
     <Compile Include="Utils\CustomMessageBoxes\CustomMessageBoxDefaultButton.cs" />
@@ -336,7 +340,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PreBuildEvent>echo Synchronize assembly revision number with SVN revision
-"$(ProjectDir)..\ThirdPartyStuff\tortoisesVN\subwcrev.bat" "$(ProjectDir)." "$(ProjectDir)Properties\AssemblyInfo.template" "$(ProjectDir)Properties\AssemblyInfo.cs"</PreBuildEvent>
+    <PreBuildEvent>"$(ProjectDir)..\ThirdPartyStuff\autoversioner\AutoVersioner.exe" "$(ProjectDir)$(ProjectFileName)" "$(ProjectDir)Properties\AssemblyInfo.template" "$(ProjectDir)Properties\AssemblyInfo.cs"</PreBuildEvent>
   </PropertyGroup>
 </Project>

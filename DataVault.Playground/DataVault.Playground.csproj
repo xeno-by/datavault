@@ -59,6 +59,10 @@
     <Compile Include="FsVaultTests.cs" />
     <Compile Include="MetaTests.cs" />
     <Compile Include="InMemoryVaultTests.cs" />
+    <Compile Include="Properties\AssemblyBuiltAtAttribute.cs" />
+    <Compile Include="Properties\AssemblyBuiltByAttribute.cs" />
+    <Compile Include="Properties\AssemblyBuiltFromAttribute.cs" />
+    <Compile Include="Properties\AssemblyBuiltOnAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RevisionHistory.cs" />
     <Compile Include="RevisionHistoryHelper.cs" />
@@ -72,6 +76,9 @@
   <ItemGroup>
     <EmbeddedResource Include="vault.zip" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AssemblyInfo.template" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
@@ -80,4 +87,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)..\ThirdPartyStuff\autoversioner\AutoVersioner.exe" "$(ProjectDir)$(ProjectFileName)" "$(ProjectDir)Properties\AssemblyInfo.template" "$(ProjectDir)Properties\AssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
 </Project>

@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using DataVault.UI.Properties;
+using DataVault.Playground.Properties;
 
 [assembly: AssemblyProduct("DataVault")]
-[assembly: AssemblyTitle("DataVault.UI (" +
+[assembly: AssemblyTitle("DataVault.Playground (" +
     "built from $"CODEBASE"$ (rev=$REVISION$, hash=$CODEHASH$), " +
     "built at $TIMESTAMP$, " +
     "built by $USERHASH$, " +
@@ -12,10 +12,10 @@ using DataVault.UI.Properties;
 [assembly: AssemblyCopyright("Copyright © 2009-2010 xeno.by")]
 
 [assembly: ComVisible(false)]
-[assembly: InternalsVisibleTo("DataVault.Playground")]
+// [assembly: InternalsVisibleTo("")]
 
-[assembly: Guid("dfb25acb-6316-483a-8ba3-48aa31802a31")]
-[assembly: AssemblyVersion("3.0.*")]
+[assembly: Guid("0580baa6-f4ec-45a9-953d-b358f0eeb917")]
+[assembly: AssemblyVersion("0.0.*")]
 [assembly: AssemblyBuiltFrom(Repository = "$"CODEBASE"$", Revision = "$REVISION$", CodebaseHash = "$CODEHASH$")]
 [assembly: AssemblyBuiltAt(Timestamp = "$TIMESTAMP$")]
 [assembly: AssemblyBuiltBy(UserHash = "$USERHASH$")]
